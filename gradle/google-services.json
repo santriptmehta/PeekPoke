@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825304634789",
+    "project_id": "peekpoke-6f094",
+    "storage_bucket": "peekpoke-6f094.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825304634789:android:6026b159f4b0e6bd06044c",
+        "android_client_info": {
+          "package_name": "com.santriptmehta.peekpoke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825304634789-tar28f62r2909dr669f4b92699ird59p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDROC6h965AokrNnICweXKj5uvGbAQ3C9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825304634789-tar28f62r2909dr669f4b92699ird59p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
