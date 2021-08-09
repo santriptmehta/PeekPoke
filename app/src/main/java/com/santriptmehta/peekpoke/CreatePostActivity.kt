@@ -31,7 +31,7 @@ class CreatePostActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_post)
 
-        val selectImage: ImageView = findViewById(R.id.select_image)
+        selectImage = findViewById(R.id.select_image)
         val enterText : TextView = findViewById(R.id.enter_text)
         val postButton: Button = findViewById(R.id.post_button)
 
@@ -92,7 +92,7 @@ class CreatePostActivity : AppCompatActivity() {
                 }.addOnCompleteListener{ urlTaskComplete ->
                     if (urlTaskComplete.isSuccessful){
                         val downloadTask = urlTaskComplete.result
-                        println(downloadTask)
+
                         val post = Post(text,downloadTask.toString(),user!!,System.currentTimeMillis())
 
                         firestore.collection("Posts").document().set(post)

@@ -42,6 +42,8 @@ class FeedAdapter(oprtions: FirestoreRecyclerOptions<Post>, val context: Context
         holder.postText.text = model.text
         holder.authorText.text = model.user.name
 
+
+
         Glide.with(context)
                 .load(model.imageUrl)
                 .centerCrop()

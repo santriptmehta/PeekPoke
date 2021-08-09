@@ -52,7 +52,8 @@ dependencies {
 
     //image picker
     implementation 'com.github.dhaval2404:imagepicker:2.1'
-
+    implementation 'com.github.thunder413:DateTimeUtils:3.0'
+    implementation 'com.google.firebase:firebase-storage-ktx'
 
 
     implementation 'com.google.firebase:firebase-auth-ktx:21.0.1'
